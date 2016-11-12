@@ -1,0 +1,154 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM711.936 423.117c0.205 4.198 0.256 8.397 0.256 12.493 0 128-97.331 275.507-275.405 275.507-54.682 0-105.574-15.974-148.378-43.52 7.526 0.922 15.258 1.28 23.091 1.28 45.363 0 87.091-15.411 120.218-41.421-42.342-0.819-78.080-28.774-90.419-67.174 5.888 1.075 11.93 1.69 18.176 1.69 8.806 0 17.408-1.178 25.498-3.379-44.288-8.909-77.67-48.026-77.67-94.925v-1.178c13.056 7.219 28.006 11.622 43.878 12.134-26.010-17.408-43.059-47.002-43.059-80.64 0-17.715 4.762-34.406 13.107-48.691 47.77 58.573 119.040 97.075 199.526 101.222-1.69-7.117-2.509-14.49-2.509-22.118 0-53.402 43.315-96.819 96.819-96.819 27.802 0 52.992 11.776 70.656 30.618 22.067-4.403 42.752-12.39 61.44-23.501-7.219 22.579-22.528 41.574-42.547 53.606 19.61-2.406 38.246-7.578 55.603-15.309-12.954 19.405-29.389 36.506-48.282 50.125z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "twitter-with-circle"
+        ],
+        "grid": 20
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 1,
+        "name": "twitter-with-circle",
+        "prevSize": 20,
+        "code": 116
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M512 20.48c-271.462 0-491.52 220.058-491.52 491.52s220.058 491.52 491.52 491.52 491.52-220.058 491.52-491.52-220.058-491.52-491.52-491.52zM628.429 360.141h-73.882c-8.755 0-18.483 11.52-18.483 26.829v53.35h92.416l-13.978 76.083h-78.438v228.403h-87.194v-228.403h-79.104v-76.083h79.104v-44.749c0-64.205 44.544-116.378 105.677-116.378h73.882v80.947z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "facebook-with-circle"
+        ],
+        "grid": 20
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "facebook-with-circle",
+        "prevSize": 20,
+        "code": 102
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "menu"
+        ],
+        "grid": 24
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 1,
+        "prevSize": 24,
+        "code": 9776,
+        "name": "menu"
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M692 692l34-56-192-116v-222h-64v256zM512 86c234 0 426 192 426 426s-192 426-426 426-426-192-426-426 192-426 426-426z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "watch_later"
+        ],
+        "grid": 24
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 1,
+        "id": 0,
+        "name": "watch_later",
+        "prevSize": 24,
+        "code": 9684
+      },
+      "setIdx": 1,
+      "setId": 0,
+      "iconIdx": 1
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icons"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showCodes": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icons",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215
+    },
+    "historySize": 100
+  }
+}
