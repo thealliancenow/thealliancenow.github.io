@@ -1,0 +1,70 @@
+@import "../_setup";
+
+/// Typography
+
+// Font Embeds
+// TODO: choose non-generic font
+
+// Global
+body, select, input, textarea {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+}
+
+// Typography > Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $base-font-weight;
+}
+h1 {
+  font-size: $font-size-1;
+  line-height: 1.1;
+}
+h2 {
+  font-size: $font-size-2;
+  line-height: 1.3;
+}
+h3 {
+  font-size: $font-size-3;
+}
+h4 {
+  font-size: $font-size-4;
+}
+
+// Typography > Paragraphs
+p {
+  margin-bottom: 1em;
+}
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+// Typography > Modifiers
+strong {
+  font-weight: bold;
+}
+em {
+  font-style: italic;
+}
+.meta {
+  color: $grey-color;
+}
+.text-center {
+  text-align: center;
+}
+
+// Typography > Links
+a {
+  color: $brand-color;
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  border-bottom: 1px solid $brand-color;
+  @include transition(all 0.5s ease);
+}
+
+// Typography > Blockquotes
+blockquote {
+  // TODO: style these
+}

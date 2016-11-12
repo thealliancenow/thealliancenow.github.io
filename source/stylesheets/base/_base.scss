@@ -1,0 +1,10 @@
+@import "../_setup";
+
+/// Base
+html,
+body {
+  height: 100%;
+}
+body {
+  background: $background-color;
+}

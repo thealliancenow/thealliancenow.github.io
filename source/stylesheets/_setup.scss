@@ -1,0 +1,76 @@
+/// Variables
+
+// Typography
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$base-line-height: 1.6;
+
+$font-size-1:      36px;
+$font-size-2:      24px;
+$font-size-3:      20px;
+$font-size-4:      18px;
+
+// Colors
+$black:                 #000;
+$white:                 #FFF;
+$text-color:            #333;
+$background-color:      #FAFAFA;
+$brand-color:           #3498DB;
+$grey-color:            #666;
+$grey-light-color:      lighten($grey-color, 25%);
+$grey-dark-color:       darken($grey-color, 25%);
+
+// Layout
+$grid-gutter:      20px;
+$site-max-width:   1000px;
+
+/// Media Query Mixins
+$fix-mqs: false !default;
+
+@mixin respond-to($content) {
+  @if $fix-mqs {
+    @if $content == med {
+      $content: 770px;
+    } @else if $content == sml {
+      $content: 401px;
+    }
+    @if $fix-mqs >= $content {
+      @content;
+    }
+  }
+  @else {
+    @if $content == site-width {
+      @media only screen and (min-width: $site-max-width) { @content; }
+    } @else if $content == med {
+      @media only screen and (min-width: 770px) { @content; }
+    } @else if $content == sml {
+      @media only screen and (min-width: 401px) { @content; }
+    } @else {
+      @media only screen and (min-width: $content) { @content; }
+    }
+  }
+}
+
+@mixin respond-to-max($content) {
+  @if $content == site-width {
+    @media only screen and (max-width: 999px) { @content; }
+  } @else if $content == med {
+    @media only screen and (max-width: 769px) { @content; }
+  } @else if $content == sml {
+    @media only screen and (max-width: 400px) { @content; }
+  } @else {
+    @media only screen and (max-width: $content) { @content; }
+  }
+}
+
+/// Vendor Prefixed Mixins
+
+// Transition
+@mixin transition ($attrs) {
+  -webkit-transition: $attrs;
+     -moz-transition: $attrs;
+      -ms-transition: $attrs;
+       -o-transition: $attrs;
+          transition: $attrs;
+}

@@ -1,0 +1,79 @@
+@import "../_setup";
+
+/// Site Header
+div#site-header {
+  background: $white;
+  border-bottom: 1px solid $grey-light-color;
+}
+div#site-header div.site-logo {
+  padding: $grid-gutter/2 $grid-gutter;
+}
+
+/// Site Navigation
+div#site-header div.site-nav {}
+div#site-header div.site-nav ul {
+  @include respond-to-max(med) {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  @include respond-to(med) {
+    float: right;
+    border-left: 1px solid $grey-light-color;
+  }
+}
+div#site-header div.site-nav ul li {
+  @include respond-to-max(med) {
+    display: block;
+    border-top: 1px solid $grey-light-color;
+  }
+  @include respond-to(med) {
+    float: left;
+    border-right: 1px solid $grey-light-color;
+  }
+}
+
+div#site-header div.site-nav ul li a {
+  display: block;
+  padding: $grid-gutter/2 $grid-gutter;
+  border-bottom: none;
+  color: $text-color;
+}
+div#site-header div.site-nav ul li a:hover,
+div#site-header div.site-nav ul li a:focus,
+div#site-header div.site-nav ul li a.cur {
+  background: $brand-color;
+  color: $white;
+}
+
+// Site Navigation > Mobile Menu Toggle
+.menu-label {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: $grid-gutter/2 $grid-gutter;
+  border-left: 1px solid $grey-light-color;
+  cursor: pointer;
+  // font-size: 20px; // NOTE: Match height to logo when ready
+  // line-height: 1;
+
+  @include respond-to(med) {
+    display: none;
+  }
+}
+#menu-toggle {
+  display: none;
+}
+#menu {
+  @include respond-to-max(med) {
+    display: none;
+  }
+}
+#menu-toggle:checked ~ #menu {
+  display: block;
+}
+#menu-toggle:checked ~ .menu-label {
+  background: $grey-light-color;
+  color: $white;
+}

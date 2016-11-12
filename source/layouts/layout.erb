@@ -6,15 +6,40 @@
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>
+      The Alliance<%= " - #{current_page.data.title}" if current_page.data.title %>
+    </title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <%= stylesheet_link_tag :app %>
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div id="site-header" role="banner">
+      <div class="wrapper">
+        <div class="site-logo sml-c12 med-c3">
+          <%= link_to 'The Alliance', '/' %>
+        </div> <!-- .site-logo -->
+
+        <input type="checkbox" id="menu-toggle" />
+        <label class="menu-label icon" for="menu-toggle">&#x2630;</label>
+
+        <div id="menu" class="site-nav sml-c12 sml-no-pad med-c9 med-pad" role="navigation">
+          <ul>
+            <li>
+              <%= link_to 'About', '/about',
+                    :class => ("cur" if current_page.url.start_with? "/about") %>
+            </li>
+          </ul>
+        </div> <!-- .site-nav -->
+      </div> <!-- .wrapper -->
+    </div> <!-- #site-header -->
+
+    <div id="site-body" role="main">
+      <%= yield %>
+    </div> <!-- div#site-body -->
+
+    <%= javascript_include_tag :app %>
+
+    <!-- TODO: add Google Analytics -->
   </body>
 </html>
