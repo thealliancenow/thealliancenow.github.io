@@ -2,8 +2,27 @@
 
 /// Typography
 
-// Font Embeds
-// TODO: choose non-generic font
+// Font Embeds > Proxima Nova
+@font-face {
+  font-family: "Proxima Nova Condensed";
+  src: url('/fonts/proximanovacond-regular.eot');
+  src: url('/fonts/proximanovacond-regular.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/proximanovacond-regular.woff2') format('woff2'),
+       url('/fonts/proximanovacond-regular.woff') format('woff'),
+       url('/fonts/proximanovacond-regular.ttf') format('truetype');
+  font-weight: $base-font-weight;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Proxima Nova Condensed";
+  src: url('/fonts/proximanovacond-semibold.eot');
+  src: url('/fonts/proximanovacond-semibold.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/proximanovacond-semibold.woff2') format('woff2'),
+       url('/fonts/proximanovacond-semibold.woff') format('woff'),
+       url('/fonts/proximanovacond-semibold.ttf') format('truetype');
+  font-weight: $bold-font-weight;
+  font-style: normal;
+}
 
 // Global
 body, select, input, textarea {
