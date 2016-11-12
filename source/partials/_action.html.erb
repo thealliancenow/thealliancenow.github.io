@@ -10,8 +10,18 @@
     <div class="rich-text">
       <%= Kramdown::Document.new(action.body).to_html %>
     </div> <!-- .rich-text -->
+
+    <% if action.data.button_text && action.data.button_url %>
+      <div class="text-center push-top">
+        <%= link_to action.data.button_text, action.data.button_url,
+              :class => 'btn', :target => '_blank' %>
+      </div> <!-- .push -->
+    <% end %>
   </div> <!-- .mod -->
   <div class="mod mod-with-pad mod-bottom">
+    <% if action.data.duration %>
+      <p>Takes about <%= action.data.duration %></p>
+    <% end %>
     <% if action.tags.any? %>
       <p>
         <% action.tags.each do |tag| %>

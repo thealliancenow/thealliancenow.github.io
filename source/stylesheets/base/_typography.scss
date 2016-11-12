@@ -57,14 +57,16 @@ a {
   color: $brand-color;
   border-bottom: 1px solid transparent;
   text-decoration: none;
+  @include transition(all 0.5s ease);
 }
 a:hover,
 a:focus {
   border-bottom: 1px solid $brand-color;
-  @include transition(all 0.5s ease);
 }
 
 // Typography > Blockquotes
 blockquote {
-  // TODO: style these
+  padding-left: $grid-gutter;
+  border-left: 5px solid $brand-color;
+  font-style: italic;
 }
