@@ -1,0 +1,25 @@
+<div class="<%= ' push-top' if !is_first %>">
+  <div class="mod mod-with-pad mod-top">
+    <h2>
+      <% if is_index %><a href="<%= action.url %>"><% end %>
+        <%= action.title %>
+      <% if is_index %></a><% end %>
+    </h2>
+  </div> <!-- .mod -->
+  <div class="mod mod-with-pad">
+    <div class="rich-text">
+      <%= Kramdown::Document.new(action.body).to_html %>
+    </div> <!-- .rich-text -->
+  </div> <!-- .mod -->
+  <div class="mod mod-with-pad mod-bottom">
+    <% if action.tags.any? %>
+      <p>
+        <% action.tags.each do |tag| %>
+          <%= link_to tag, "/actions/tags/#{tag}" %>
+        <% end %>
+      </p>
+    <% end %>
+    <p><%= action.date.strftime('%B %d, %Y') %></p>
+    <p><%= link_to 'Permalink', action.url %></p>
+  </div> <!-- .mod -->
+</div> <!-- .push -->

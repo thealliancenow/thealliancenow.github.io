@@ -1,0 +1,31 @@
+@import "../_setup";
+
+// Rich Text Formatting
+
+.rich-text > :first-child {
+  margin-top: 0;
+}
+.rich-text > :last-child {
+  margin-bottom: 0;
+}
+.rich-text p {
+  margin-bottom: 1em;
+}
+.rich-text h1,
+.rich-text h2,
+.rich-text h3 {
+  margin: $grid-gutter 0;
+  text-align: center;
+}
+.rich-text blockquote {
+  margin: 0.75em 0;
+}
+.rich-text img {
+  margin: $grid-gutter auto;
+  width: 100%;
+  height: auto;
+}
+.rich-text ul,
+.rich-text ol {
+  margin: 1em 0;
+}

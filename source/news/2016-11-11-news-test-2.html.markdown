@@ -1,0 +1,7 @@
+---
+title: News test 2
+date: 2016-11-11 02:08 UTC
+tags:
+---
+
+News 2 content

@@ -20,6 +20,27 @@ page '/*.txt', layout: false
 activate :directory_indexes
 set :markdown_engine, :kramdown
 
+# Blog congfiguration
+activate :blog do |blog|
+  blog.name         = "actions"
+  blog.prefix       = "actions"
+  blog.sources      = ":year-:month-:day-:title.html"
+  blog.permalink    = ":year-:month-:day-:title.html"
+  blog.layout       = "action_layout"
+  blog.tag_template = "actions/tag.html"
+  blog.paginate     = true
+  blog.per_page     = 2
+end
+activate :blog do |blog|
+  blog.name         = "news"
+  blog.prefix       = "news"
+  blog.sources      = ":year-:month-:day-:title.html"
+  blog.permalink    = ":year-:month-:day-:title.html"
+  blog.paginate     = true
+  blog.per_page     = 1
+  # TODO: layout for news pages
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

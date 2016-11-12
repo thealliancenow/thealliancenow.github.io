@@ -26,6 +26,14 @@
         <div id="menu" class="site-nav sml-c12 sml-no-pad med-c9 med-pad" role="navigation">
           <ul>
             <li>
+              <%= link_to 'Actions', '/actions',
+                    :class => ("cur" if current_page.url.start_with? "/actions") %>
+            </li>
+            <li>
+              <%= link_to 'News', '/news',
+                    :class => ("cur" if current_page.url.start_with? "/news") %>
+            </li>
+            <li>
               <%= link_to 'About', '/about',
                     :class => ("cur" if current_page.url.start_with? "/about") %>
             </li>

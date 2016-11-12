@@ -1,0 +1,27 @@
+@import "../_setup";
+
+/// Modules
+.mod {
+  background: $white;
+  border: 1px solid $grey-light-color;
+}
+.mod + .mod {
+  margin-top: -1px; // NOTE: Equals module border width
+}
+
+// Module > With Padding
+.mod.mod-with-pad {
+  padding: $grid-gutter;
+}
+
+// Module > Top
+.mod.mod-top {
+  border-top-right-radius: $border-radius;
+  border-top-left-radius:  $border-radius;
+}
+
+// Module > Bottom
+.mod.mod-bottom {
+  border-bottom-right-radius: $border-radius;
+  border-bottom-left-radius:  $border-radius;
+}

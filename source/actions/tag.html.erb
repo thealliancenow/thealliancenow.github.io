@@ -1,0 +1,9 @@
+---
+pageable: true
+---
+
+<%= partial "partials/action_list",
+      :locals => {
+        :actions => page_articles,
+        :title => "Actions tagged #{tagname}"
+      } %>

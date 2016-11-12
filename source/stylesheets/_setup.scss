@@ -4,6 +4,7 @@
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
+$bold-font-weight: 700;
 $base-line-height: 1.6;
 
 $font-size-1:      36px;
@@ -18,12 +19,15 @@ $text-color:            #333;
 $background-color:      #FAFAFA;
 $brand-color:           #3498DB;
 $grey-color:            #666;
-$grey-light-color:      lighten($grey-color, 25%);
+$grey-light-color:      lighten($grey-color, 35%);
 $grey-dark-color:       darken($grey-color, 25%);
 
 // Layout
 $grid-gutter:      20px;
 $site-max-width:   1000px;
+
+// Decoration
+$border-radius: 5px;
 
 /// Media Query Mixins
 $fix-mqs: false !default;

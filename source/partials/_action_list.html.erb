@@ -1,0 +1,24 @@
+<div class="section">
+  <div class="wrapper">
+    <div class="sml-c12 grid-center">
+      <h1 class="text-center"><%= title %></h1>
+    </div> <!-- .c -->
+  </div> <!-- .wrapper -->
+</div><!-- .section -->
+
+<div class="section">
+  <div class="wrapper">
+    <div class="sml-c12 med-c8 grid-center">
+      <% articles.each_with_index do |article, i| %>
+        <%= partial "partials/action",
+              :locals => {
+                :action => article,
+                :is_index => true,
+                :is_first => (i == 0) ? true : false
+              } %>
+      <% end %>
+
+      <%= partial "partials/pagination", :locals => { :paginate => paginate } %>
+    </div> <!-- .c -->
+  </div> <!-- .wrapper -->
+</div><!-- .section -->

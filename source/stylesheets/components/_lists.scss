@@ -1,0 +1,44 @@
+@import "../_setup";
+
+/// Lists
+
+// Lists > Bullets
+.bullets,
+.rich-text ul {
+  list-style-type: disc;
+}
+
+// Lists > Numbers
+.numbers,
+.rich-text ol {
+  list-style-type: decimal;
+}
+
+// Lists > Bullets & Numbers
+.bullets,
+.numbers,
+.rich-text ul,
+.rich-text ol {
+  padding-left: $grid-gutter;
+}
+.bullets li,
+.numbers li,
+.rich-text li {
+  padding: $grid-gutter/4 0;
+}
+
+// Lists > Horizontal
+.hoz {
+  list-style: none;
+}
+.hoz li {
+  display: inline-block;
+  padding-left:  $grid-gutter/2;
+  padding-right: $grid-gutter/2;
+}
+.hoz li:first-of-type {
+  padding-left:  0;
+}
+.hoz li:last-of-type {
+  padding-right: 0;
+}
