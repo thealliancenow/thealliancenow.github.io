@@ -6,6 +6,15 @@
       <% if is_index %></a><% end %>
     </h2>
   </div> <!-- .mod -->
+  <% if action.data.image_url %>
+    <div class="mod image">
+      <%= image_tag "actions/#{action.data.image_url}",
+            :alt => action.data.image_alt ? action.data.image_alt : '' %>
+      <% if action.data.image_credit %>
+        <p class="small image-credit"><%= action.data.image_credit %></p>
+      <% end %>
+    </div> <!-- .mod -->
+  <% end %>
   <div class="mod mod-with-pad">
     <div class="rich-text">
       <%= Kramdown::Document.new(action.body).to_html %>

@@ -18,6 +18,8 @@ page '/*.txt', layout: false
 
 # General configuration
 activate :directory_indexes
+activate :relative_assets
+set :relative_links, true
 set :markdown_engine, :kramdown
 
 # Blog congfiguration

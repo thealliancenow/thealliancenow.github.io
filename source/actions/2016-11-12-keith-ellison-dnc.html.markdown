@@ -5,6 +5,9 @@ tags: tag1, tag2
 duration: 2 minutes
 button_text: Sign the Petition
 button_url: "https://go.berniesanders.com/page/s/keith-ellison-dnc"
+image_url: "keith-ellison-dnc.jpg"
+image_alt: "Keith Ellison speaking at a podium"
+image_credit: Center for American Progress Action Fund
 ---
 
 > "We must also do everything we can to elect Democrats in Congress in 2018,
