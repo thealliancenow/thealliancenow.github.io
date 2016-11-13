@@ -3,11 +3,13 @@
 /// Buttons
 
 .btn {
+  position: relative;
   display: inline-block;
   padding: $grid-gutter/2 $grid-gutter;
   overflow: hidden;
   background: $brand-secondary-color;
   border: none;
+  box-shadow: 0 4px 0 $brand-secondary-dark-color;
   color: $white;
   cursor: pointer;
   font-size: $font-size-3;
@@ -18,6 +20,7 @@
     -webkit-user-select: none;
   user-select:           none;
   -webkit-appearance: none;
+  @include transition(none);
 }
 button.btn {
   vertical-align: top;
@@ -25,8 +28,9 @@ button.btn {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background: $brand-secondary-dark-color;
+  top: 2px;
   border: none;
+  box-shadow: 0 2px 0 $brand-secondary-dark-color;
   color: $white;
 }
 
