@@ -1,0 +1,14 @@
+---
+title: Support the ACLU in fighting the good fight
+date: 2016-11-13 20:45 UTC
+tags: human-rights
+duration: 2 - 10 minutes
+button_text: Support the ACLU
+button_url: "https://action.aclu.org/secure/timetofight?ms=web_161109_immigrantrights_reproductivefreedom"
+image_url: "aclu-fights.jpg"
+image_alt: "The words 'See You in Court' next to Trump's scowling face"
+image_credit: Flickr/Gage Skidmore
+---
+
+The ACLU promises to "fight like hell to protect the Constitution and defend
+freedom." You can sign their petition, donate, or both.
