@@ -28,16 +28,22 @@
     <% end %>
   </div> <!-- .mod -->
   <div class="mod mod-with-pad mod-bottom">
-    <% if action.data.duration %>
-      <p><span class="icon left">&#x25d4;</span><%= action.data.duration %></p>
-    <% end %>
-    <% if action.tags.any? %>
-      <p>
-        <% action.tags.each do |tag| %>
-          <%= link_to tag, "/actions/tags/#{tag}", :class => 'tag' %>
-        <% end %>
-      </p>
-    <% end %>
-    <p><%= action.date.strftime('%B %d, %Y') %></p>
+    <ul>
+      <% if action.data.duration %>
+        <li>
+          <span class="icon left">&#x25d4;</span><%= action.data.duration %>
+        </li>
+      <% end %>
+      <% if action.tags.any? %>
+        <li class="<%= 'push-top-half' if action.data.duration %>">
+          <% action.tags.each do |tag| %>
+            <%= link_to tag, "/actions/tags/#{tag}", :class => 'tag' %>
+          <% end %>
+        </li>
+      <% end %>
+      <li class="<%= 'push-top-half' if action.data.duration || action.tags.any? %>">
+        <%= action.date.strftime('%B %d, %Y') %>
+      </li>
+    </ul>
   </div> <!-- .mod -->
 </div> <!-- .push -->

@@ -10,13 +10,9 @@ image_alt: "Keith Ellison speaking at a podium"
 image_credit: Center for American Progress Action Fund
 ---
 
-> "We must also do everything we can to elect Democrats in Congress in 2018,
-> and to take back the White House in 2020. We need a Democratic National
-> Committee led by a progressive who understands the dire need to listen to
-> working families, not the political establishment or the billionaire class.
-> That is why I support Keith Ellison to be the next Chair of the Democratic
-> National Committee, and why I hope you'll join me in advocating for him to
-> lead the DNC."
+> "We need a Democratic National Committee led by a progressive who understands
+> the dire need to listen to working families, not the political establishment
+> or the billionaire class."
 >
 > ~ Bernie Sanders
 
