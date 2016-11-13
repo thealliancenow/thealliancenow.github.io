@@ -24,7 +24,6 @@ div#site-header div.site-nav ul {
   }
   @include respond-to(med) {
     float: right;
-    border-left: 1px solid $grey-light-color;
   }
 }
 div#site-header div.site-nav ul li {
@@ -34,14 +33,13 @@ div#site-header div.site-nav ul li {
   }
   @include respond-to(med) {
     float: left;
-    border-right: 1px solid $grey-light-color;
   }
 }
 
 div#site-header div.site-nav ul li a {
   display: block;
-  padding: 13px 20px 14px;
-  border-bottom: none;
+  padding: 13px 20px 10px;
+  border-bottom: 4px solid transparent;
   color: $text-color;
   font-weight: $bold-font-weight;
   letter-spacing: 0.05em;
@@ -49,10 +47,12 @@ div#site-header div.site-nav ul li a {
 }
 div#site-header div.site-nav ul li a:hover,
 div#site-header div.site-nav ul li a:focus {
-  background: $grey-light-color;
+  border-bottom-color: $brand-dark-color;
+  color: $brand-dark-color;
 }
 div#site-header div.site-nav ul li a.cur {
   background: $brand-color;
+  border-bottom-color: $brand-dark-color;
   color: $white;
 }
 
@@ -62,8 +62,10 @@ div#site-header div.site-nav ul li a.cur {
   position: absolute;
   right: 0;
   top: 0;
-  padding: 14px 20px;
-  border-left: 1px solid $grey-light-color;
+  padding: 14px 20px 10px;
+  background: $brand-color;
+  border-bottom: 4px solid $brand-dark-color;
+  color: $white;
   cursor: pointer;
   font-size: 24px;
   line-height: 1;
@@ -84,6 +86,6 @@ div#site-header div.site-nav ul li a.cur {
   display: block;
 }
 #menu-toggle:checked ~ .menu-label {
-  background: $grey-light-color;
+  background: $brand-dark-color;
   color: $white;
 }
