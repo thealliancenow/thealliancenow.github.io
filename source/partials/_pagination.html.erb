@@ -1,11 +1,10 @@
 <% if paginate %>
-  <p>
-    Showing <%= page_articles.size %> actions (<%= page_start %> - <%= page_end %>)
-    on page <%= page_number %> of <%= num_pages %>
-  </p>
-  <ul class="hoz push-top-double text-center">
-    <% if prev_page %><li><%= link_to 'Previous', prev_page.url %></li><% end %>
-    <li>Page <%= page_number %> of <%= num_pages %></li>
-    <% if next_page %><li><%= link_to 'Next', next_page.url %></li><% end %>
-  </ul>
+  <div class="sml-c12">
+    <hr class="push-top-double" />
+    <ul class="hoz push-top text-center">
+      <% if prev_page %><li><%= link_to 'Previous', prev_page.url %></li><% end %>
+      <li>Page <%= page_number %> of <%= num_pages %></li>
+      <% if next_page %><li><%= link_to 'Next', next_page.url %></li><% end %>
+    </ul>
+  </div> <!-- .c -->
 <% end %>

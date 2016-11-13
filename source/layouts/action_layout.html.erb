@@ -1,12 +1,11 @@
 <% wrap_layout :layout do %>
   <div class="section">
     <div class="wrapper">
-      <div class="sml-c12 med-c8 grid-center">
+      <div class="sml-c12 med-c6 grid-center">
         <%= partial "partials/action",
               :locals => {
                 :action => current_article,
-                :is_index => false,
-                :is_first => true
+                :is_index => false
               } %>
       </div> <!-- .c -->
     </div> <!-- .wrapper -->

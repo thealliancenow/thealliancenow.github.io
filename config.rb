@@ -31,7 +31,7 @@ activate :blog do |blog|
   blog.layout       = "action_layout"
   blog.tag_template = "actions/tag.html"
   blog.paginate     = true
-  blog.per_page     = 2
+  blog.per_page     = 12
 end
 activate :blog do |blog|
   blog.name         = "news"
@@ -39,7 +39,7 @@ activate :blog do |blog|
   blog.sources      = ":year-:month-:day-:title.html"
   blog.permalink    = ":year-:month-:day-:title.html"
   blog.paginate     = true
-  blog.per_page     = 1
+  blog.per_page     = 10
   # TODO: layout for news pages
 end
 

@@ -1,7 +1,7 @@
-<div class="<%= ' push-top' if !is_first %>">
+<div class="<%= ' push-top' if is_index %>">
   <div class="mod mod-with-pad mod-top">
     <h2>
-      <% if is_index %><a href="<%= action.url %>"><% end %>
+      <% if is_index %><a href="<%= action.url %>" class="text"><% end %>
         <%= action.title %>
       <% if is_index %></a><% end %>
     </h2>

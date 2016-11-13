@@ -12,7 +12,5 @@ image_credit: Center for American Progress Action Fund
 
 > "We need a Democratic National Committee led by a progressive who understands
 > the dire need to listen to working families, not the political establishment
-> or the billionaire class."
->
-> ~ Bernie Sanders
+> or the billionaire class." Bernie Sanders
 

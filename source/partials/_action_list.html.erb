@@ -1,24 +1,33 @@
 <div class="section">
   <div class="wrapper">
-    <div class="sml-c12 grid-center">
+    <div class="sml-c12">
       <h1 class="text-center"><%= title %></h1>
-    </div> <!-- .c -->
-  </div> <!-- .wrapper -->
-</div><!-- .section -->
+      <hr class="push-top-half" />
 
-<div class="section">
-  <div class="wrapper">
-    <div class="sml-c12 med-c8 grid-center">
-      <% articles.each_with_index do |article, i| %>
-        <%= partial "partials/action",
-              :locals => {
-                :action => article,
-                :is_index => true,
-                :is_first => (i == 0) ? true : false
-              } %>
-      <% end %>
-
-      <%= partial "partials/pagination", :locals => { :paginate => paginate } %>
+      <ul class="hoz push-top">
+        <li>See actions tagged:</li>
+        <li>
+          <% blog.tags.each do |tag, articles| %>
+            <%= link_to tag, "/actions/tags/#{tag}", :class => 'tag' %>
+          <% end %>
+        </li>
+      </ul>
     </div> <!-- .c -->
+
+    <% articles.each_slice(3) do |article_group| %>
+      <div class="row">
+        <% article_group.each do |article| %>
+          <div class="sml-c12 med-c4">
+            <%= partial "partials/action",
+                  :locals => {
+                    :action => article,
+                    :is_index => true
+                  } %>
+          </div> <!-- .c -->
+        <% end %>
+      </div> <!-- .row -->
+    <% end %>
+
+    <%= partial "partials/pagination", :locals => { :paginate => paginate } %>
   </div> <!-- .wrapper -->
 </div><!-- .section -->
