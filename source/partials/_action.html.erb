@@ -37,7 +37,8 @@
       <% if action.tags.any? %>
         <li class="<%= 'push-top-half' if action.data.duration %>">
           <% action.tags.each do |tag| %>
-            <%= link_to tag, "/actions/tags/#{tag}", :class => 'tag' %>
+            <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
+                  :class => 'tag' %>
           <% end %>
         </li>
       <% end %>

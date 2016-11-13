@@ -8,7 +8,8 @@
         <li>See actions tagged:</li>
         <li>
           <% blog.tags.each do |tag, articles| %>
-            <%= link_to tag, "/actions/tags/#{tag}", :class => 'tag' %>
+            <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
+                  :class => 'tag' %>
           <% end %>
         </li>
       </ul>
