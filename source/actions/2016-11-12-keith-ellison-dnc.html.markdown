@@ -1,7 +1,7 @@
 ---
 title: Join Bernie Sanders and Support Keith Ellison for DNC Chair
 date: 2016-11-12 01:48 UTC
-tags: politics, dnc
+tags: politics
 duration: 2 minutes
 button_text: Sign the Petition
 button_url: "https://go.berniesanders.com/page/s/keith-ellison-dnc"
