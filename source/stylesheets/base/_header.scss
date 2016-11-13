@@ -6,7 +6,12 @@ div#site-header {
   border-bottom: 1px solid $grey-light-color;
 }
 div#site-header div.site-logo {
-  padding: $grid-gutter/2 $grid-gutter;
+  padding-top:    10px;
+  padding-bottom: 10px;
+  font-size: $font-size-3;
+}
+div#site-header div.site-logo span {
+  font-weight: $bold-font-weight;
 }
 
 /// Site Navigation
@@ -35,12 +40,17 @@ div#site-header div.site-nav ul li {
 
 div#site-header div.site-nav ul li a {
   display: block;
-  padding: $grid-gutter/2 $grid-gutter;
+  padding: 13px 20px 14px;
   border-bottom: none;
   color: $text-color;
+  font-weight: $bold-font-weight;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 div#site-header div.site-nav ul li a:hover,
-div#site-header div.site-nav ul li a:focus,
+div#site-header div.site-nav ul li a:focus {
+  background: $grey-light-color;
+}
 div#site-header div.site-nav ul li a.cur {
   background: $brand-color;
   color: $white;
@@ -52,11 +62,11 @@ div#site-header div.site-nav ul li a.cur {
   position: absolute;
   right: 0;
   top: 0;
-  padding: $grid-gutter/2 $grid-gutter;
+  padding: 14px 20px;
   border-left: 1px solid $grey-light-color;
   cursor: pointer;
-  // font-size: 20px; // NOTE: Match height to logo when ready
-  // line-height: 1;
+  font-size: 24px;
+  line-height: 1;
 
   @include respond-to(med) {
     display: none;
