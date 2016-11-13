@@ -23,3 +23,42 @@ Getting Started
         bundle exec middleman
 
 5. Visit the site your browser at `http://localhost:4567/`.
+
+
+Adding Actions
+--------------
+
+1. In Terminal, run `bundle exec middleman article Title` where "Title" is your
+   action name.
+
+2. In the frontmatter (found at the top of the file that was generated), add
+   about how long the action should take as the `duration`:
+
+        duration: 5 minutes
+
+3. In the frontmatter, add your action button's text and URL:
+
+        button_text: Sign the Petition
+        button_url: "https://example.com/"
+
+4. Upload your image to the `source/images/actions` folder. Images should
+   be **640px by 400px**. Make sure the image is as small as possible by
+   compressing it with something like [ImageOptim](https://imageoptim.com/mac).
+   Then, add these fields in the frontmatter:
+
+        image_url: "name-of-your-file.jpg"
+        image_alt: "Description of what's in the photo"
+        image_credit: Photographer's name for credit if needed (optional)
+
+5. In the frontmatter, add tags separated by commas. Please include at least one
+   of these main categories: `politics`, `human-rights`, `social-support`,
+   `privacy`, `environment`, `economics`, `donate`.
+
+        tag: human-rights, social-support
+
+6. In the action body write a *very* short description of why someone should
+   take this action. One sentence is best. We want to make taking action as
+   easy as possible for people. Also, the page we're linking to will probably
+   have a longer explanation.
+
+7. Preview in the browser, commit your code, and submit a pull request!
