@@ -29,10 +29,9 @@
               <%= link_to 'Take Action', '/actions',
                     :class => ("cur" if current_page.url.start_with? "/actions") %>
             </li>
-            <li>
-              <%= link_to 'News', '/news',
-                    :class => ("cur" if current_page.url.start_with? "/news") %>
-            </li>
+            <%# TODO: Add back news later %>
+            <%#= link_to 'News', '/news',
+                  :class => ("cur" if current_page.url.start_with? "/news") %>
             <li>
               <%= link_to 'About', '/about',
                     :class => ("cur" if current_page.url.start_with? "/about") %>
