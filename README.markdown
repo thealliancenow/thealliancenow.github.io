@@ -28,8 +28,9 @@ Getting Started
 Adding Actions
 --------------
 
-1. In Terminal, run `bundle exec middleman article Title` where "Title" is your
-   action name.
+1. In Terminal, run `bundle exec middleman article your-post-url` where
+   `your-post-url` is your action slug. You'll have to update the `title` field
+   in the front matter from `your-post-url` to `Your Action Title`.
 
 2. In the frontmatter (found at the top of the file that was generated), add
    about how long the action should take as the `duration`:
