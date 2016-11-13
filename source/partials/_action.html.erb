@@ -1,5 +1,5 @@
 <div class="<%= ' push-top' if is_index %>">
-  <div class="mod mod-with-pad mod-top">
+  <div class="mod mod-with-pad">
     <h2>
       <% if is_index %><a href="<%= action.url %>" class="text"><% end %>
         <%= action.title %>
@@ -27,7 +27,7 @@
       </div> <!-- .push -->
     <% end %>
   </div> <!-- .mod -->
-  <div class="mod mod-with-pad mod-bottom">
+  <div class="mod mod-with-pad mod-with-top-border">
     <ul>
       <% if action.data.duration %>
         <li>
