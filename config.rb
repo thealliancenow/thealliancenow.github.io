@@ -70,5 +70,6 @@ end
 
 activate :deploy do |deploy|
   deploy.deploy_method = :git
+  deploy.remote   = "git@github.com:thealliancenow/the-alliance.git"
   deploy.branch   = 'gh-pages'
 end
