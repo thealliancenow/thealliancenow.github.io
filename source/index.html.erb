@@ -2,10 +2,36 @@
 title: Welcome to Middleman
 ---
 
+<div class="section hero">
+  <div class="wrapper">
+    <div class="sml-c12 text-center">
+      <h1>Welcome to The Alliance</h1>
+    </div> <!-- .c -->
+  </div> <!-- .wrapper -->
+</div><!-- .section -->
+
 <div class="section">
   <div class="wrapper">
     <div class="sml-c12">
-      <h1>Welcome to The Alliance</h1>
+      <h2>Latest Actions</h2>
+      <hr class="push-top-half" />
+    </div> <!-- .c -->
+    <div class="row push-top">
+      <% blog(:actions).articles.first(3).each do |article| %>
+        <div class="sml-c12 med-c4">
+          <%= partial "partials/action",
+                :locals => {
+                  :action => article,
+                  :is_index => true
+                } %>
+        </div> <!-- .c -->
+      <% end %>
+    </div> <!-- .row -->
+    <div class="sml-c12 text-center">
+      <hr class="push-top-double" />
+      <div class="push-top">
+        <%= link_to 'See all actions', '/actions' %>
+      </div> <!-- .push -->
     </div> <!-- .c -->
   </div> <!-- .wrapper -->
 </div><!-- .section -->
