@@ -42,3 +42,21 @@
 .hoz li:last-of-type {
   padding-right: 0;
 }
+
+// Lists > Tags
+.tags {
+  overflow: hidden;
+  list-style: none;
+}
+.tags li.label {
+  padding-right: $grid-gutter/2;
+}
+.tags li {
+  display: block;
+  float: left;
+  margin-top: $grid-gutter/4;
+  padding-right: $grid-gutter/4;
+}
+.tags li:last-of-type {
+  padding-right: 0;
+}

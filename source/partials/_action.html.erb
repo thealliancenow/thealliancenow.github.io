@@ -35,11 +35,15 @@
         </li>
       <% end %>
       <% if action.tags.any? %>
-        <li class="<%= 'push-top-half' if action.data.duration %>">
-          <% action.tags.each do |tag| %>
-            <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
-                  :class => 'tag' %>
-          <% end %>
+        <li class="<%= 'push-top-quarter' if action.data.duration %>">
+          <ul class="tags">
+            <% action.tags.each do |tag| %>
+              <li>
+                <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
+                      :class => 'tag' %>
+              </li>
+            <% end %>
+          </ul>
         </li>
       <% end %>
       <li class="<%= 'push-top-half' if action.data.duration || action.tags.any? %>">

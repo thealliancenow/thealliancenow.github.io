@@ -4,14 +4,14 @@
       <h1 class="text-center"><%= title %></h1>
       <hr class="push-top-half" />
 
-      <ul class="hoz push-top">
-        <li>See actions tagged:</li>
-        <li>
-          <% blog.tags.each do |tag, articles| %>
+      <ul class="tags push-top">
+        <li class="label">See actions tagged:</li>
+        <% blog.tags.each do |tag, articles| %>
+          <li>
             <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
                   :class => 'tag' %>
-          <% end %>
-        </li>
+          </li>
+        <% end %>
       </ul>
     </div> <!-- .c -->
 
