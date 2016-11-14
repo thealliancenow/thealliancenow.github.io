@@ -1,7 +1,7 @@
 ---
 title: Support the ACLU in fighting the good fight
 date: 2016-11-13 20:45 UTC
-tags: human-rights
+tags: human-rights, quick
 duration: 2 - 10 minutes
 button_text: Support the ACLU
 button_url: "https://action.aclu.org/secure/timetofight?ms=web_161109_immigrantrights_reproductivefreedom"

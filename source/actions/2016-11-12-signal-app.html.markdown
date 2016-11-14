@@ -1,8 +1,8 @@
 ---
 title: Download the Signal App
 date: 2016-11-12 05:48 UTC
-tags: privacy
-duration: 5 - 10 minutes
+tags: privacy, quick
+duration: 5 minutes
 button_text: Download the App
 button_url: "https://whispersystems.org/"
 image_url: "signal-app.jpg"
