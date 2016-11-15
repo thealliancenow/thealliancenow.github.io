@@ -17,7 +17,10 @@
     <div id="site-header" role="banner">
       <div class="wrapper">
         <div class="site-logo sml-c12 med-c3">
-          <%= link_to "The <span>Alliance</span>".html_safe, '/' %>
+          <% link_to '/' do %>
+            <%= image_tag 'logo.png', :alt => 'logo' %>
+            <div class="text">The <span>Alliance</span></div>
+          <% end %>
         </div> <!-- .site-logo -->
 
         <input type="checkbox" id="menu-toggle" />
@@ -43,6 +46,10 @@
             <li>
               <%= link_to 'Suggestions', 'https://goo.gl/forms/aELz0vVgv6Tzabff2',
                     :target => '_blank' %>
+            </li>
+            <li>
+              <%= link_to 't', 'https://twitter.com/theallianceacts',
+                    :class => 'icon', :target => '_blank' %>
             </li>
           </ul>
         </div> <!-- .site-nav -->

@@ -10,7 +10,28 @@ div#site-header div.site-logo {
   padding-bottom: 10px;
   font-size: $font-size-3;
 }
-div#site-header div.site-logo span {
+div#site-header div.site-logo a:hover,
+div#site-header div.site-logo a:focus {
+  border: none;
+}
+div#site-header div.site-logo img {
+  display: none;
+  width: auto;
+  height: auto;
+  float: left;
+
+  @include respond-to(med) {
+    display: block;
+  }
+}
+div#site-header div.site-logo .text {
+  @include respond-to(med) {
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+  }
+}
+div#site-header div.site-logo .text span {
   font-weight: $bold-font-weight;
 }
 
@@ -44,6 +65,11 @@ div#site-header div.site-nav ul li a {
   font-weight: $bold-font-weight;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+
+  @include respond-to(med) {
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
 }
 div#site-header div.site-nav ul li a:hover,
 div#site-header div.site-nav ul li a:focus {
