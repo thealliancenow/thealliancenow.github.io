@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
@@ -28,6 +28,10 @@
             <li>
               <%= link_to 'Take Action', '/actions',
                     :class => ("cur" if current_page.url.start_with? "/actions") %>
+            </li>
+            <li>
+              <%= link_to 'Resources', '/resources',
+                    :class => ("cur" if current_page.url.start_with? "/resources") %>
             </li>
             <%# TODO: Add back news later %>
             <%#= link_to 'News', '/news',
