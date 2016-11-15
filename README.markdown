@@ -53,7 +53,7 @@ Adding Actions
 
 5. In the frontmatter, add tags separated by commas. Please include at least one
    of these main categories: `politics`, `human-rights`, `social-support`,
-   `privacy`, `environment`, `economics`, `donate`.
+   `privacy`, `environment`, `economics`, `donate`, `health`.
 
         tag: human-rights, social-support
 
