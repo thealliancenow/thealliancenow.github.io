@@ -63,3 +63,8 @@ Adding Actions
    have a longer explanation.
 
 7. Preview in the browser, commit your code, and submit a pull request!
+
+Code of Conduct
+---------------
+
+Please note that this project is released with a [Contributor Code of Conduct](/CODE_OF_CONDUCT.md). By participating in this project you agree to abide by its terms.
