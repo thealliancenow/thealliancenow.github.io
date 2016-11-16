@@ -1,5 +1,5 @@
 ---
-title: Thank your representative
+title: Thank your Representatives
 date: 2016-11-16 03:31 UTC
 tags: politics
 duration: 5+ minutes
@@ -10,4 +10,6 @@ image_alt: "United States Congress in session"
 image_credit: "Wikimedia Commons"
 ---
 
-If your Congressional Representative has spoken out against bigotry or hatred, send them a thank you note.  
+If your Congressional Representative has spoken out against bigotry or hatred,
+send them a thank you note. They're working tirelessly for us, and it's a long
+road ahead.
