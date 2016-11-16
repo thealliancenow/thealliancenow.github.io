@@ -13,5 +13,18 @@
 
 // Section > Hero
 .section.hero {
-  background: $white;
+  background: $brand-dark-color;
+  color: $white;
+
+  @include respond-to(med) {
+    padding-top:    0;
+    padding-bottom: 0;
+  }
+}
+.section.hero .wrapper {
+  @include respond-to(med) {
+    padding-top:    $grid-gutter*4;
+    padding-bottom: $grid-gutter*4;
+    background: image-url('torch.gif') bottom right no-repeat;
+  }
 }
