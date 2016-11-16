@@ -5,6 +5,11 @@
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <meta name="description" content="Standing up for human rights, one action at a time. By doing something every day, our voices will triumph over hatred">
+    <meta property="og:description" content="Standing up for human rights, one action at a time. By doing something every day, our voices will triumph over hatred" />
+    <% if current_page.data.sharing_image %>
+      <meta property="og:image" content="<%= current_page.data.sharing_image %>" />
+    <% end %>
+
     <%# Use title if it's in the page YAML frontmatter %>
     <title>
       The Alliance<%= " - #{current_page.data.title}" if current_page.data.title %>
