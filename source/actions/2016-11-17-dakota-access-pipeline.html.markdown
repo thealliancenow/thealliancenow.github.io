@@ -1,7 +1,7 @@
 ---
 title: Stop your bank from supporting the Dakota Access Pipeline
 date: 2016-11-17 01:23 UTC
-tags: environment, human-rights, quick
+tags: environment, petition, quick
 duration: 2 minutes
 button_text: Sign the Petition
 button_url: "https://actions.sumofus.org/a/banks-need-to-divest-from-the-dakota-access-pipeline-now/"

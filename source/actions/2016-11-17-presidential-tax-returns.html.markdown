@@ -1,7 +1,7 @@
 ---
 title: Support the Presidential Tax Transparency Act
 date: 2016-11-17 01:35 UTC
-tags: politics, quick
+tags: politics, petition, quick
 duration: 2 minutes
 button_text: Sign the Petition
 button_url: "http://act.credoaction.com/sign/congress_trump_taxes/"
