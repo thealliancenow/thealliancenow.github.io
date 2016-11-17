@@ -1,7 +1,7 @@
 ---
 title: Report hatecrimes and harrassment
 date: 2016-11-13 21:50 UTC
-tags: human-rights
+tags: human-rights, safety
 duration: 10 minutes
 button_text: Report Hate
 button_url: "https://www.splcenter.org/reporthate"
