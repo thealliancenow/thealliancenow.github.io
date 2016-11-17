@@ -31,7 +31,7 @@ activate :blog do |blog|
   blog.layout       = "action_layout"
   blog.tag_template = "actions/tag.html"
   blog.paginate     = true
-  blog.per_page     = 12
+  blog.per_page     = 9
 end
 activate :blog do |blog|
   blog.name         = "news"
