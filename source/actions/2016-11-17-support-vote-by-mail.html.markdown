@@ -9,7 +9,7 @@ image_url: "mail.jpg"
 image_alt: "Stock image of a postal envelope"
 ---
 
-Ask your Senators and Representatives to co-sponsor and support the
+Ask your Senators and Representative to co-sponsor and support the
 [Vote by Mail Act](https://www.wyden.senate.gov/vote-by-mail). This bill will
 make voter suppression harder, increase turnout, and make election results more
 representative of the will of the people.
