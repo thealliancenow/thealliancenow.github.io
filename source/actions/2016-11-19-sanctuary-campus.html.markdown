@@ -10,6 +10,6 @@ image_alt: "Student walkout at Brown University crowd of people in front of camp
 image_credit: "Twitter/@ProvDSA"
 ---
 
-College and university students, professors, alumni ask schools to become
+College and university students, professors, and alumni ask schools to become
 sanctuaries for undocumented immigrants. You can find a petition, or start a
 new one.
