@@ -7,6 +7,7 @@ button_text: Sign the Petition
 button_url: "https://go.ourrevolution.com/page/s/standing-rock-monument"
 image_url: "standing-rock-2.jpg"
 image_alt: "Group standing with signs and a banner that says 'Keep it in the ground'"
+image_credit: "Flickr/350.org"
 ---
 
 The best shot we have at stopping the Dakota Access pipeline is through bold
