@@ -1,5 +1,5 @@
 ---
-title: Declare "Standing Rock" a monument to stop the DAPL
+title: Declare a "Standing Rock" monument to stop the DAPL
 date: 2016-11-20 20:08 UTC
 tags: environment, petition, quick
 duration: 2 minutes
