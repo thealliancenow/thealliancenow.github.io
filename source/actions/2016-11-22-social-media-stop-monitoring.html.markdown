@@ -1,7 +1,7 @@
 ---
 title: Facebook, Instagram, and Twitter, stop monitoring us
 date: 2016-11-22 00:48 UTC
-tags: human-rights, petiton, quick
+tags: human-rights, petition, quick
 duration: 2 minutes
 button_text: Sign the Petition
 button_url: https://colorofchange.org/campaigns/facebook-twitter-and-instagram-are-helping-police-monitor-people-color/
