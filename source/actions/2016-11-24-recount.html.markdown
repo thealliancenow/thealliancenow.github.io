@@ -1,0 +1,13 @@
+---
+title: Support an election recount
+date: 2016-11-24 21:30 UTC
+tags: politics, donate, quick
+duration: 5 minutes
+button_text: Contribute to election integrity
+button_url: https://jillstein.nationbuilder.com/recount
+image_url: "ballot-box.jpg"
+image_alt: "A ballot counting machine, made of grey plastic and colorful buttons"
+image_credit: "Lance Fisher"
+---
+
+The Green Party is [demanding a recount of the federal election](http://blogs.wsj.com/washwire/2016/11/23/jill-stein-seeks-recounts-in-wisconsin-michigan-pennsylvania/?mod=e2tw) in Michigan, Pennsylvania, & Wisconsin. The filing fees, attorney's fees, and recount observer costs are likely to reach $6-7 million.
