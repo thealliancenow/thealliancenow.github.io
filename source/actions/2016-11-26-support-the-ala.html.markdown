@@ -10,6 +10,6 @@ image_alt: "Bookshelves and a person reading a book titled Biggest Word Book Eve
 image_credit: Ariel Grimm
 ---
 
-Librarians and the ALA have defended people's right to read without government
+Librarians have defended people's right to read without government
 tracking for years both online and off. Support their work to protect our
-privacy and strengthen education for all.
+privacy and strengthen education for all. Or visit your local library!
