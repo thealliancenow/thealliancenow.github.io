@@ -10,7 +10,7 @@ pageable: true
       <hr class="push-top-half" />
 
       <ul class="tags push-top">
-        <li class="label">See actions tagged:</li>
+        <li class="label">Tagged:</li>
         <% blog.tags.each do |tag, page_articles| %>
           <li>
             <%= link_to tag.gsub('-', ' '), "/actions/tags/#{tag}",
