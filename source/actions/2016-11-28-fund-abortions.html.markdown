@@ -1,5 +1,5 @@
 ---
-title: Fund Abortions
+title: Fund abortions for women without access
 date: 2016-11-28 15:54 UTC
 tags: quick, human-rights, health
 duration: 5 minutes
@@ -9,5 +9,5 @@ image_url: "nnaf.jpg"
 image_alt: "The words ABORTION COLLECTIVE POWER COMPASSION RADICAL COLLABORATION AUTONOMY INTERSECTIONALITY"
 image_credit: "National Network of Abortion Funds"
 ---
-Make it possible for a pregnant person to choose to terminate their pregnancy in a safe, 
+Make it possible for a pregnant person to choose to terminate their pregnancy in a safe,
 supportive environment, without financial or logistical pressure.
