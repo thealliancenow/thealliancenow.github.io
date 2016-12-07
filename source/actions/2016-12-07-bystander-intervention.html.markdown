@@ -1,6 +1,6 @@
 ---
 title: Learn to intervene when harassment happens
-date: 2016-12-07 20:39 UTC
+date: 2016-12-07 00:13 UTC
 tags: social-support
 duration: 1 hour
 button_text: Read the guide
