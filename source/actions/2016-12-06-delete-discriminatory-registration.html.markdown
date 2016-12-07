@@ -1,7 +1,7 @@
 ---
 title: Obama, delete discriminatory registration
 date: 2016-12-06 23:21 UTC
-tags: human-rights, petiton, quick
+tags: human-rights, petition, quick
 duration: 5 minutes
 button_text: Sign the ACLU's petition
 button_url: "https://action.aclu.org/secure/nseers?redirect=nseersTW&ms=TW_161206_religiousliberty_racialjustice_immigrantrights_nationalsecurity_nseers"
