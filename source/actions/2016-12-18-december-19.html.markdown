@@ -1,0 +1,14 @@
+---
+title: Defend Democracy on December 19th
+date: 2016-12-18 21:33 UTC
+tags: protest
+duration: 2+ hours
+button_text: Join your local protest
+button_url: "http://www.december19.us/"
+image_url: "december-19-stop-trump.jpg"
+image_alt: "Tomorrow we have one last chance to #stoptrump"
+---
+
+December 19, 2016: We the People will come together at every state capitol across
+the United States to call on the Electors of the Electoral College to listen to
+the voice of the people and refuse to cast their ballots for Donald Trump.
