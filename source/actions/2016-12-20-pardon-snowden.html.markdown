@@ -1,7 +1,7 @@
 ---
 title: Urge Obama to Pardon Edward Snowden
 date: 2016-12-20 18:46 UTC
-tags: security, petition, quick
+tags: safety, petition, quick, privacy
 duration: 5 minutes
 button_text: Sign the petition
 button_url: "https://pardonsnowden.org/"
