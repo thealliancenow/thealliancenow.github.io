@@ -10,4 +10,6 @@ image_alt: "An outdoor nine-branched candelabrum"
 image_credit: Temple Beth Shalom
 ---
 
-On the first night of Chanukah, the large menorah and the Holocaust Memorial in front of Temple Beth Shalom in Sun City, Arizona were desecrated and heavily damaged. They need help to be able to afford repairs.
+On the first night of Chanukah, the large menorah and the Holocaust Memorial in
+front of Temple Beth Shalom in Sun City, AZ were desecrated and heavily damaged.
+They need help to be able to afford repairs.
