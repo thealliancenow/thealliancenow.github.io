@@ -17,9 +17,6 @@ page '/*.txt', layout: false
 #  which_fake_page: "Rendering a fake page with a local variable" }
 
 # General configuration
-activate :directory_indexes
-activate :relative_assets
-set :relative_links, true
 set :markdown_engine, :kramdown
 
 # Blog congfiguration
@@ -72,7 +69,8 @@ configure :build do
 end
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.deploy_method = :git
-  deploy.remote   = "git@github.com:thealliancenow/the-alliance.git"
-  deploy.branch   = 'gh-pages'
+  deploy.remote   = "git@github.com:thealliancenow/thealliancenow.github.io"
+  deploy.branch   = 'master'
 end
