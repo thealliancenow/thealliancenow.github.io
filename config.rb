@@ -71,6 +71,5 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.deploy_method = :git
-  deploy.remote   = "git@github.com:thealliancenow/thealliancenow.github.io"
   deploy.branch   = 'master'
 end
