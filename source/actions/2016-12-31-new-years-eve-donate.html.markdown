@@ -4,7 +4,7 @@ date: 2016-12-31 20:17 UTC
 tags: donate
 duration: 5+ minutes
 button_text: Who should I donate to?
-button_url: http://thealliance.today/resources/
+button_url: /resources/
 image_url: "donate.png"
 image_alt: "Line-art hand with a heart above it"
 image_credit: Noun Project/Matt Brooks
